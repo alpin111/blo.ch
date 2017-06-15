@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<html>
+
+
+
+<!-- include navigation -->
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<div w3-include-html="nav.html"></div>
+<script>
+w3.includeHTML();
+</script>
+
+
+
+
+
+<body>
+  <div class = "projects" id="projects">
+
+<script src="store.js"></script>
+
+<script>
+project_list.forEach(function(element) {
+    document.write('<a href=project?name=' + element["string"] + ' /><span class="project_client_span">    ' + element["client"] + ' :</span> ' + element["name"] + '  <br />');
+});
+</script>
+
+
+
+  </div>
+
+
+</body>
+</html>
