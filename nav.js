@@ -1,12 +1,12 @@
 
 document.write(
 '<header>'+
-'<nav><ul><div id="navigaton">'+
+'<nav><ul>'+
 
-'<li ><a href="portfolio">Portfolio</a></li>'+
-'<li ><a href="about">About</a></li>'+
+'<li id="portfolio"><a href="portfolio">Portfolio</a></li>'+
+'<li id="about"><a href="about">About</a></li>'+
 
-'</div></ul></nav></header>'+
+'</ul></nav></header>'+
 
 '<div class="logo">'+
 '<a href="index">'+
@@ -18,6 +18,18 @@ document.write(
 );
 
 
+
+
+
+if (page=="portfolio") {
+    $('li').removeClass('active');
+    $('li#portfolio').addClass('active');
+};
+
+if (page=="about") {
+    $('li').removeClass('active');
+    $('li#about').addClass('active');
+};
 
 
 

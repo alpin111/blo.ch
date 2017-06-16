@@ -117,7 +117,9 @@ a:visited {color: None;}
 
 
 
-.active a{opacity: 1.0;}
+.active a{
+  opacity: 1.0;
+}
 
 
 
