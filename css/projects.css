@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+  /*******************************************************************************************************/
+
+
+
+
+
+
+
+
+.projects {
+  margin-top:100px;
+  padding-top:3%;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  line-height: 30px;
+}
+
+
+.project_client_span {color: #5F758B}
+
+.projects a:hover {
+letter-spacing: 1.5px;
+  transition: all 0.5s ease;
+}
+
+.projects a{
+letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+
+@keyframes opacity_transform {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.projects, .gallery, .info, .about, .contact {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 opacity_transform;
+
+}
