@@ -1,25 +1,26 @@
 
+document.write(
+'<header>'+
+'<nav><ul><div id="navigaton">'+
+
+'<li ><a href="portfolio">Portfolio</a></li>'+
+'<li ><a href="about">About</a></li>'+
+
+'</div></ul></nav></header>'+
+
+'<div class="logo">'+
+'<a href="index">'+
+'<span class="text_concept">text & concept</span>'+
+'<span class="kevin_bloch">Kevin Bloch</span>'+
+'<span class="cursor">|    </span>'+
+'</a>'+
+'</div>'
+);
 
 
 
-<header>
-
-<nav>
-  <ul>
-<li ><a href='portfolio'>Portfolio</a></li>
-
-<li ><a href='about'>About</a></li>
-
-</ul>
-</nav>
-</header>
 
 
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-
-<script>
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
@@ -34,15 +35,3 @@ $(window).scroll(function() {
         $(".scroll").removeClass("scroll_element");
     }
 });
-
-</script>
-
-
-<div class="logo">
-
-<span class="text_concept">text & concept</span>
-<span class="kevin_bloch">Kevin Bloch</span>
-<span class="cursor">|    </span>
-
-
-</div>

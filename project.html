@@ -1,70 +1,29 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="store.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+
+
 <html>
 
-<!-- include navigation -->
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-<div w3-include-html="nav.html"></div>
-<script>
-w3.includeHTML();
-</script>
-
+<script src="nav.js"></script>
 
 
 <body>
 
+
+
 <div class="backbutton">
   <li><a href='portfolio'> <- back</a></li>
-
 </div>
 
-<!-- javascript version of php -->
-<script>
-var projectname = location.search;
-// function you can use:
-function getSecondPart(str) {
-    return str.split('=')[1];
-}
-
-// use the function:
-var slice =getSecondPart(projectname);
-
-</script>
 
 
 
 
 <div class="info">
-  <p>
-  Client:
-
-  <script>
-  var client = slice + ".client"
-document.write(eval(client));
-  </script>
-
-  </p>
-<p><h1>
-  <script>
-  var name = slice + ".name"
-document.write(eval(name));
-  </script>
-</h1></p>
-
-<p>
-  <script>
-  var project = slice + ".project"
-document.write(eval(project));
-  </script>
-</p>
-<p>
-  <script>
-  var special = slice + ".special"
-document.write(eval(special));
-  </script>
-</p>
-
+<script src="info.js"></script>
 </div>
 
 
@@ -75,33 +34,16 @@ document.write(eval(special));
 
 
  <div class="gallery" id = "gallery">
-
-
-<script src="video.js"></script>
-
-
-<script>
-
-  var dir = "portfoliofolder/" + slice;
-  var fileextension = ".jpg";
-
-     var count;
-
-     for(count = 1; count < 17; count++){
-        document.write('<object data="portfoliofolder/'+ slice +'/'+ count +'.jpg"  type="image/jpg"><img src="default.png" ></object>');
-
-     }
-
-  </script>
+              <script src="video.js"></script>
+              <script src="gallery.js"></script>
 </div>
-
 
 
 <div class="backbutton_end">
   <li><a href='portfolio'> <- back</a></li>
 </div>
 
+
+
 </body>
-
-
 </html>
