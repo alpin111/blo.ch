@@ -238,7 +238,7 @@ img[src="default.png"] {
 .projects, .about, .info {
   width: 80%;
   line-height: 1.2em;
-  margin-top: 100px;
+  margin-top: 5em;
   margin-left: 10%;
   font-size: 1.5em;
 
@@ -251,6 +251,8 @@ img[src="default.png"] {
     typing 0.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+
+.info {animation: None}
 
 /* The typing effect */
 @keyframes typing {
@@ -294,8 +296,10 @@ letter-spacing: 1px;
 /*******************************************************************************************************//*******************************************************************************************************/
 @media only screen and (max-width: 769px){
   .info, .about, .contact  {width: 100%;
-        padding-top: 5em;
+        padding-top: 1em;
         margin-left: 0%;
+        animation: None;
+        overflow:visible;
       }
             .logo {display:none;}
 }
