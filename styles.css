@@ -55,8 +55,18 @@ nav {
     margin-top: 9px;
     transition: all 0.5s ease;
 
-
+    font-size: 15px;
 }
+
+
+@media (min-width: 1919px) {
+  nav, .logo {
+  font-size: 30px;
+}
+.cursor {font-size: 40px;}
+.text_concept {font-size: 24px;}
+}
+
 
 header {
   /*because box shadow is always on all sides*/
@@ -248,7 +258,7 @@ img[src="default.png"] {
   .projects {
   font-size: 30px;
   line-height: 60px;
-  margin-top:200px;
+  margin-top:150px;
 }
 }
 
