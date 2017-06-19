@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: arcon;
+    src: url(media/Arcon-Regular.otf);
+}
+
+
+.type-it {
+  font-family: arcon;
+  font-size: 4vw;
+  letter-spacing: 0.05em;
+  line-height: 7vw;
+  }
+
+
+body {
+  padding-left: 1vw;
+  padding-top: 1vw;
+}
+
+
+  a {color:blue;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+    transition: all 0.5s ease;
+  }
+
+ a:hover {
+  letter-spacing: 0.09em;
+    transition: all 0.5s ease;
+  }
+
+  a:visited {color: None;}
