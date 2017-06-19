@@ -21,9 +21,19 @@ var page = "portfolio";
 
 <script src="js/store.js"></script>
 
+
+
+
 <script>
 project_list.forEach(function(element) {
-    document.write('<a href=project?name=' + element["string"] + ' /><span class="project_client_span">    ' + element["client"] + ' :</span> ' + element["name"] + '  <br />');
+    document.write('<a href=project?name=' +
+    element["string"] +
+    '><span class="project_client_span">    ' +
+    element["client"] +
+    ' : </span>' +
+    element["name"] +
+    '<br>'
+          );
 });
 </script>
 
