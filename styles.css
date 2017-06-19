@@ -295,7 +295,7 @@ letter-spacing: 1px;
 /*responsive */
 /*******************************************************************************************************//*******************************************************************************************************/
 @media only screen and (max-width: 950px){
-  .info, .about, .contact  {width: 100%;
+  .info, .about, .projects  {width: 100%;
         padding-top: 1em;
         margin-left: 0%;
         animation: None;
