@@ -59,10 +59,7 @@ nav {
 }
 
 
-@media (min-width: 1679px) {
-  nav, .logo {
-  font-size: 30px;
-}
+
 .cursor {font-size: 40px;}
 .text_concept {font-size: 24px;}
   .logo {top:10px;}
@@ -207,14 +204,7 @@ margin-left: 35%;
 }
 
 
-@media only screen and (max-width: 640px){
-  .info, .about, .contact  {width: 80%;
-        padding-bottom: 10%;
-        padding-top: 20%;
-        margin: auto;
-      }
-      .logo {display:none;}
-}
+
 
 
 
@@ -257,13 +247,7 @@ img[src="default.png"] {
   line-height: 30px;
 }
 
-@media (min-width: 1679px) {
-  .projects {
-  font-size: 30px;
-  line-height: 60px;
-  margin-top:150px;
-}
-}
+
 
 .project_client_span {color: #5F758B}
 
@@ -291,3 +275,28 @@ letter-spacing: 1px;
 
 
 .contact-about {padding-top: 60px}
+
+
+/*responsive */
+/*******************************************************************************************************//*******************************************************************************************************/
+@media only screen and (max-width: 1400px){
+  .info, .about, .contact  {width: 80%;
+        padding-bottom: 10%;
+        padding-top: 20%;
+        margin: auto;
+      }
+      .logo {display:none;}
+}
+
+@media (min-width: 1679px) {
+  nav, .logo {
+  font-size: 30px;
+}
+
+@media (min-width: 1679px) {
+  .projects {
+  font-size: 30px;
+  line-height: 60px;
+  margin-top:150px;
+}
+}
