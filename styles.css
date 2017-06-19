@@ -233,11 +233,11 @@ img[src="default.png"] {
 }
 
 
-
+.projects {line-height: 1.2em;}
 
 .projects, .about, .info {
   width: 80%;
-  line-height: 1.2em;
+
   margin-top: 5em;
   margin-left: 10%;
   font-size: 1.5em;
@@ -294,7 +294,7 @@ letter-spacing: 1px;
 
 /*responsive */
 /*******************************************************************************************************//*******************************************************************************************************/
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 950px){
   .info, .about, .contact  {width: 100%;
         padding-top: 1em;
         margin-left: 0%;
