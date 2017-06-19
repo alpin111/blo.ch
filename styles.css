@@ -59,12 +59,14 @@ nav {
 }
 
 
-@media (min-width: 1919px) {
+@media (min-width: 1679px) {
   nav, .logo {
   font-size: 30px;
 }
 .cursor {font-size: 40px;}
 .text_concept {font-size: 24px;}
+  .logo {top:10px;}
+  nav {margin-top: -1px}
 }
 
 
