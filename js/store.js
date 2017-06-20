@@ -8,8 +8,8 @@ var audi = {
   string : "audi",
  client : "Audi",
  name : "Casemovie Explains Men",
- project : "A casemovie about the Audi RS 4 campaign.",
- special : "The casemovie also explains why men like cars.",
+ project : "A casemovie about the Audi RS 4 mailing and deep zoom banner campaign.",
+ special : "It points out mens' fascination for cars and goes on to explain how the campaign exploits the male brain.",
  };
  project_list.push(audi);
 
@@ -30,8 +30,8 @@ var palmolive = {
   string : "palmolive",
  client : "Colgate-Palmolive",
  name : "Campaign for your Hands",
- project : "An informative campaign to advertise Palmolive's soap by explaining the importance of washing your hands.",
- special : "",
+ project : "A cross-media campaign to advertise Palmolive's soap by explaining the importance of washing your hands.",
+ special : "The campaign also uses QR codes and cameras on germ-rich spots to demonstrate how often we pick up bacteria.",
  };
 project_list.push(palmolive);
 
@@ -53,7 +53,7 @@ var marionnaud = {
   client : "Marionnaud",
   name : "Print Ads for your Mother",
   project : "A mailing sent on Mother's Day.",
-  special : "Being provided with almost no information about the perfumes I was supposed to write about, I came up with my own psychedelic descriptions",
+  special : "Being provided with almost no information about the perfumes, I came up with my own psychedelic descriptions",
  };
 project_list.push(marionnaud);
 
