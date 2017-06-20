@@ -19,46 +19,51 @@ li { display: inline;
 
 nav .active a{
   text-decoration: None;
-  color: black;
+  color: blue;
   border-right: .1em solid black;
   animation:
     typing 0.5s steps(40, end),
     blink-caret 1.0s step-end infinite;
 }
 
+
+header{line-height: 1em;}
+
 nav {
-  margin-bottom: 1em;
+  font-size: 0.8em;
+  margin-bottom: 1.5em;
 }
-
-
-
 
 
 
   /*******************************************************************************************************/
 
+  body {
+    margin: 1.5em;
+  }
 
 
 
-.type-it, body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-
+.type-it, body  {
+  font-family: "Segoe UI","Helvetica Neue";
+  font-weight: 450;
   font-size: 2em;
   line-height: 1.5em;
   }
 
-
-body {
-  margin: 1em;
+.about, .contact  {
+  font-size: 1.7em;
+  line-height: 1em;
 }
 
 
+
+
   body a {
-  color:blue;
+  color:black;
   text-decoration: underline;
   border-right: .1em solid transparent;
-  font-size: 1em;
+
   }
 
 
@@ -93,7 +98,7 @@ body {
   /*******************************************************************************************************//*******************************************************************************************************/
   @media only screen and (max-width: 950px){
     body  {
-      font-size: 1em;
+      font-size: 0.8em;
         }
   }
 

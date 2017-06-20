@@ -17,16 +17,16 @@ var slice =getSecondPart(projectname);
 
 
 var client = slice + ".client"
-document.write('<p>' + eval(client) + '</p>');
+document.write('<span class="client_span">' + eval(client) + '</span><br>');
 
 
 var name = slice + ".name"
-document.write('<p><h1>' + eval(name) + '</h1></p>');
+document.write('<h1>' + eval(name) + '</h1>');
 
 
 var project = slice + ".project"
-document.write('<p>' + eval(project) + '</p>');
+document.write( eval(project) + '<br><br>');
 
 
 var special = slice + ".special"
-document.write('<p>' + eval(special) + '</p>');
+document.write(eval(special) + '<br>');
