@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="styles.css">
-
+<link rel="stylesheet" type="text/css" href="css/typewriter.css">
+<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +17,7 @@ var page = "portfolio";
 
 
 <body>
-  <div class = "projects" id="projects">
+  <div class = "portfolio">
 
 <script src="js/store.js"></script>
 
@@ -26,13 +26,15 @@ var page = "portfolio";
 
 <script>
 project_list.forEach(function(element) {
-    document.write('<a href=project?name=' +
+    document.write(
+
+    '<div class="one_project"><a href=project?name=' +
     element["string"] +
     '><span class="project_client_span">    ' +
     element["client"] +
-    ' : </span>' +
+    '<br></span>' +
     element["name"] +
-    '</a><br>'
+    '</div></a><br>'
           );
 });
 </script>

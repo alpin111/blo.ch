@@ -2,21 +2,12 @@
 document.write(
 '<header>'+
 '<nav><ul>'+
-
+'<li id="index"><a href="index">Home</a></li>'+
 '<li id="portfolio"><a href="portfolio">Portfolio</a></li>'+
 '<li id="about"><a href="about">About</a></li>'+
-
-'</ul></nav></header>'+
-
-'<div class="logo">'+
-'<a href="index">'+
-'<span class="text_concept">text & concept</span>'+
-'<span class="kevin_bloch">Kevin Bloch</span>'+
-'<span class="cursor">|    </span>'+
-'</a>'+
-'</div>'
+'<li id="contact"><a href="contact">Contact</a></li>'+
+'</ul></nav></header>'
 );
-
 
 
 
@@ -31,6 +22,16 @@ if (page=="about") {
     $('li#about').addClass('active');
 };
 
+
+if (page=="index") {
+    $('li').removeClass('active');
+    $('li#index').addClass('active');
+};
+
+if (page=="contact") {
+    $('li').removeClass('active');
+    $('li#contact').addClass('active');
+};
 
 
 $(window).scroll(function() {

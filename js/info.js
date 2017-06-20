@@ -17,7 +17,7 @@ var slice =getSecondPart(projectname);
 
 
 var client = slice + ".client"
-document.write('<p>Client: ' + eval(client) + '</p>');
+document.write('<p>' + eval(client) + '</p>');
 
 
 var name = slice + ".name"

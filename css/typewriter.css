@@ -1,33 +1,88 @@
 
-@font-face {
-    font-family: arcon;
-    src: url(../media/Arcon-Regular.otf);
+
+
+
+
+
+/* NAVIGATION ******************************************************************************************************/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { display: inline;
+  margin-right: 50px;}
+
+nav .active a{
+  text-decoration: None;
+  color: black;
+  border-right: .1em solid black;
+  animation:
+    typing 0.5s steps(40, end),
+    blink-caret 1.0s step-end infinite;
+}
+
+nav {
+  margin-bottom: 1em;
 }
 
 
+
+
+
+
+  /*******************************************************************************************************/
+
+
+
+
 .type-it, body {
-  font-family: arcon !important;
-  font-size: 4vw !important;
-  letter-spacing: 0.05em !important;
-  line-height: 7vw !important;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+
+  font-size: 2em;
+  line-height: 1.5em;
   }
 
 
 body {
-  padding-left: 1vw;
-  padding-top: 1vw;
+  margin: 1em;
 }
 
 
-  a {color:blue;
+  body a {
+  color:blue;
   text-decoration: underline;
-  letter-spacing: 0.05em;
-    transition: all 0.5s ease;
+  border-right: .1em solid transparent;
+  font-size: 1em;
   }
+
 
  a:hover {
-  letter-spacing: 0.09em;
-    transition: all 0.5s ease;
+     border-right: .1em solid black;
+     animation:
+       typing 0.5s steps(40, end),
+       blink-caret 1.0s step-end infinite;
   }
 
-  a:visited {color: None;}
+
+
+
+
+  /*******************************************************************************************************/
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
