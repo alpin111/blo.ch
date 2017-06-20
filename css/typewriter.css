@@ -1,15 +1,15 @@
 
 @font-face {
     font-family: arcon;
-    src: url(media/Arcon-Regular.otf);
+    src: url(../media/Arcon-Regular.otf);
 }
 
 
-.type-it {
-  font-family: arcon;
-  font-size: 4vw;
-  letter-spacing: 0.05em;
-  line-height: 7vw;
+.type-it, body {
+  font-family: arcon !important;
+  font-size: 4vw !important;
+  letter-spacing: 0.05em !important;
+  line-height: 7vw !important;
   }
 
 

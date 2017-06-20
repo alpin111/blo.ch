@@ -53,7 +53,7 @@
     this.hasStarted = false;
     this.inTag = false;
     this.stringsToDelete = '';
-    this.style = 'style="display:inline;position:relative;font:inherit;color:inherit;"';
+    this.style = 'style="display:inline;position:relative;"';
     this.s = $.extend({}, this.d, opt);
     this.el = el;
     this._init();
