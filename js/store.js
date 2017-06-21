@@ -90,7 +90,7 @@ var mobimo = {
   client : "Mobimo",
   name : "Tower Website",
   project : "A website advertising the new flats of the Mobimo Tower.",
-  special : "",
+  special : "The new website was combined with an AdWords campaign. To this day, all flats are rented out except one or two on the top floors.",
  };
 project_list.push(mobimo);
 
@@ -118,7 +118,7 @@ var novartis2 = {
   client : "Novartis",
   name : "Internal Communication",
   project : "A video and internal newsletter informing novartis employees worldwide of their new Voltaren website.",
-  special : "",
+  special : "The tonality of the video aims for 'American enthusiasm', adressing the culture of the Voltaren management.",
  };
  project_list.push(novartis2);
 

@@ -13,9 +13,6 @@ img[src="default.png"] {
   font-size: 0px;
 }
 
-h1 {
-  margin-top: 0.05em;
-}
 
 iframe {
   max-width: 100%;
@@ -32,10 +29,14 @@ iframe {
 .info {height: 100vh}
 
 .client_span {
-  font-size: 0.6em;
+  font-size: 0.7em;
   line-height: 0em;
 }
 
+.name_span {
+  font-size: 1.5em;
+  line-height: 0em;
+}
 
 
 .scroll {

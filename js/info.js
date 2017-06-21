@@ -21,7 +21,7 @@ document.write('<span class="client_span">' + eval(client) + '</span><br>');
 
 
 var name = slice + ".name"
-document.write('<h1>' + eval(name) + '</h1>');
+document.write('<span class="name_span">' + eval(name) + '</span><br><br>');
 
 
 var project = slice + ".project"
