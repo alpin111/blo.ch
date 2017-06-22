@@ -13,8 +13,8 @@
 .type-it, body  {
   font-family: "Segoe UI","Helvetica Neue";
   font-weight: 500;
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 1.7em;
+  line-height: 1em;
   }
 
 .about, .contact  {
@@ -35,6 +35,8 @@
 
  a:hover {
      border-right: .1em solid black;
+     color:blue;
+     text-decoration: none;
      animation:
        typing 0.5s steps(40, end),
        blink-caret 1.0s step-end infinite;

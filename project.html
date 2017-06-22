@@ -45,9 +45,21 @@ var page = "portfolio";
 <div class="info">
 <script src="js/info.js"></script>
 
+
+
 <div class="scroll">
-  scroll down
+
+  <a href="#gallery">scroll down</a>
+  <script>
+  $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      return false;
+  });
+  </script>
 </div>
+
 </div>
 
 
@@ -64,7 +76,6 @@ var page = "portfolio";
 <div class="backbutton_end">
   <a href='portfolio'>back</a>
 </div>
-
 
 
 </body>

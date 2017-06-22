@@ -40,11 +40,37 @@ var page = "index";
 
   <span class="type-it"></span>
 <script>
+
+
+
+var typeit_done_cookie = document.cookie.replace(/(?:(?:^|.*;\s*)typeit_done\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+
+function set_cookie() {
+  document.cookie = "typeit_done=true";
+}
+
+window.onbeforeunload = function(e) {
+    document.cookie = 'typeit_done=; expires=' + d.toGMTString() + ';';
+};
+
+if (typeit_done_cookie != 'true') {
 $('.type-it').typeIt({
+  callback: set_cookie(),
   cursor: false,
-  speed: 40,
-  strings: ['This is the website of freelance copywriter <a href="about">Kevin&nbsp;Bloch</a>.<br>', 'Have a look at <a href="portfolio">his work.</a>', 'Contact him at <a href="tel:+41 79 716 73 61">+41 79 716 73 61</a> or <a href="mailto:kevinbloch@gmail.com">kevinbloch@gmail.com</a>']
+  speed: 30,
+  strings: ['This is the website of freelance copywriter <a href="about">Kevin&nbsp;Bloch</a>.',' ', 'Have a look at <a href="portfolio">his work.</a>',' ', 'Contact him at <a href="tel:+41 79 716 73 61">+41 79 716 73 61</a> or <a href="mailto:kevinbloch@gmail.com">kevinbloch@gmail.com</a>']
 });
+ }
+
+else {
+  document.write(
+  '<div class=about>This is the website of freelance copywriter <a href="about">Kevin&nbsp;Bloch</a>.<br><br>'+
+  'Have a look at <a href="portfolio">his work.</a><br><br>'+
+  'Contact him at <a href="tel:+41 79 716 73 61">+41 79 716 73 61</a> or <a href="mailto:kevinbloch@gmail.com">kevinbloch@gmail.com</a></div>'
+);
+}
+
 </script>
 
 

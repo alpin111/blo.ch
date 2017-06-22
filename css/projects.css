@@ -1,26 +1,17 @@
 
 
-
-
-/*hide all default dummy images*/
-img[src="default.png"] {
-  display:None;
-}
-
-
-.gallery {
-  line-height: 0px;
-  font-size: 0px;
-}
-
-
 iframe {
   max-width: 100%;
   max-height: 100%;
 }
 
 
-.gallery object {
+
+.gallery {
+  text-align: center;
+}
+
+.gallery img {
     max-width: 100%;
     padding-bottom: 32px;
 }
@@ -28,18 +19,43 @@ iframe {
 
 .info {height: 100vh}
 
-.client_span {
-  font-size: 0.7em;
-  line-height: 0em;
+
+
+
+/*img {
+  width: 50%;
+  transition: all 0.5s ease;
 }
+
+img:hover {
+  width:100%;
+  transition: all 0.5s ease;
+}*/
+
+
+
+
+
+
+.client_span {
+  font-size: 0.9em;
+  line-height: 0em;
+
+}
+
+.info {padding-top: 0.2em}
 
 .name_span {
   font-size: 1.5em;
-  line-height: 0em;
 }
 
+.description_span {
+  font-size: 0.8em;
+}
 
 .scroll {
+  text-decoration: none !important;
+  font-size: 0.8em;
   position:absolute;
   bottom: 1em;
   width: 20%;
@@ -58,3 +74,6 @@ iframe {
 
   transition: all 0.5s ease;
 }
+
+
+.backbutton_end{padding-top: 1em;}

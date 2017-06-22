@@ -25,8 +25,8 @@ document.write('<span class="name_span">' + eval(name) + '</span><br><br>');
 
 
 var project = slice + ".project"
-document.write( eval(project) + '<br><br>');
+document.write('<span class="description_span">' +  eval(project) + '<br>—<br>');
 
 
 var special = slice + ".special"
-document.write(eval(special) + '<br>');
+document.write(eval(special) + '<br>' + '</span>');
