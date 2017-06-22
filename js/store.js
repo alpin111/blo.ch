@@ -129,7 +129,7 @@ var novartis = {
   name : "Global Master Website",
   project : "A new website that was to serve as a template for all subsidiaries.",
   special : "The content was written in cooperation with doctors and trainers to ensure medical accuracy.",
-  images : 16,
+  images : 15,
   };
 
 project_list.push(novartis);
