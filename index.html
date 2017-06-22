@@ -15,10 +15,6 @@
 
 
 
-
-
-
-
 <script>
 var page = "index";
 </script>
@@ -51,7 +47,7 @@ function set_cookie() {
 }
 
 window.onbeforeunload = function(e) {
-    document.cookie = 'typeit_done=; expires=' + d.toGMTString() + ';';
+    document.cookie = 'cookiename=; expires=' + d.toGMTString() + ';';
 };
 
 if (typeit_done_cookie != 'true') {
@@ -59,7 +55,7 @@ $('.type-it').typeIt({
   callback: set_cookie(),
   cursor: false,
   speed: 30,
-  strings: ['This is the website of freelance copywriter <a href="about">Kevin&nbsp;Bloch</a>.', 'Have a look at <a href="portfolio">his work.</a>', 'Contact him at <a href="tel:+41 79 716 73 61">+41 79 716 73 61</a> or <a href="mailto:kevinbloch@gmail.com">kevinbloch@gmail.com</a>']
+  strings: ['This is the website of freelance copywriter <a href="about">Kevin&nbsp;Bloch</a>.',' ', 'Have a look at <a href="portfolio">his work.</a>',' ', 'Contact him at <a href="tel:+41 79 716 73 61">+41 79 716 73 61</a> or <a href="mailto:kevinbloch@gmail.com">kevinbloch@gmail.com</a>']
 });
  }
 
