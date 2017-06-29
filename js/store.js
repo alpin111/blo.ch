@@ -66,7 +66,7 @@ images : 8,
   client : "Microsoft",
   name : "Mailing for Working People",
   project : "A Mailing adressed at small and medium businesses explaining the use of Microsoft's new software tools.",
-  special : "The mailing was personalized for ious profession groups to demonstrate how Microsoft's new software adds to their existing tools.",
+  special : "The mailing was personalized for various profession groups to demonstrate how Microsoft's new software adds to their existing tools.",
   images : 4,
   },
 
@@ -86,7 +86,7 @@ images : 8,
  client : "Migros",
  name : "Interactive Hiking Trails",
  project : "A campaign with a contest to advertise Migros' Heidi product line.",
- special : "The contest includes an application that allows marking benches in the mountain areas.",
+ special : "The contest includes an application that allows marking your favorite benches in the mountain areas. The campaign aims to ignite love for the Swiss mountain areas and connect them to the Heidi products, fostering identification.",
  images : 13,
  },
 
@@ -103,33 +103,33 @@ images : 8,
 
  neocitran = {
   string : "neocitran",
- client : "Notis",
+ client : "Novartis",
  name : "Cuckatoo Campaign",
  project : "A campaign aimed to give NeoCitran the edge over its competitors.",
- special : "For some reason, the campaign was required to include a cuckatoo.",
+ special : "For some reason, the campaign was required to include a cuckatoo. The approach was a literary one, taking the cheeky cuckatoo as a metaphor for the cough that would never stop.",
  images : 10,
  },
 
 
 
 
- notis = {
-   string : "notis",
-  client : "Notis",
+ novartis = {
+   string : "novartis",
+  client : "Novartis",
   name : "Global Master Website",
   project : "A new website that was to serve as a template for all subsidiaries.",
-  special : "The content was written in cooperation with doctors and trainers to ensure medical accuracy.",
+  special : "The content was written in cooperation with doctors and trainers to ensure medical accuracy. Internal cross-linking was an important focus on the site, ensuring that consumers would understand the connection between certain symptoms and the products to relieve them.",
   images : 15,
   },
 
 
 
- notis2 = {
-   string : "notis2",
-  client : "Notis",
+ novartis2 = {
+   string : "novartis2",
+  client : "Novartis",
   name : "Internal Communication",
-  project : "A video and internal newsletter informing notis employees worldwide of their new Voltaren website.",
-  special : "The tonality of the video aims for 'American enthusiasm', adressing the culture of the Voltaren management.",
+  project : "A video and internal newsletter informing Novartis employees worldwide of their new Voltaren website.",
+  special : "The tonality of the video aims for 'American enthusiasm', adressing the culture of the Voltaren management responsible for the project. The communication also emphasizes the website as a collective Novartis project, thereby aiming to persuade the various branches to adapt the new template for their local websites.",
   images : 1,
   },
 
@@ -148,14 +148,14 @@ images : 8,
 
 
 
- schindler = {
-  string : "schindler",
- client : "Schindler",
- name : "Image Material",
- project : "Posters for an event hosted by Schindler.",
- special : "",
- images : 2,
- },
+ // schindler = {
+ //  string : "schindler",
+ // client : "Schindler",
+ // name : "Image Material",
+ // project : "Posters for an event hosted by Schindler.",
+ // special : "",
+ // images : 2,
+ // },
 
 
 
@@ -165,7 +165,7 @@ images : 8,
  client : "Valora",
  name : "Product Rebranding",
  project : "Renaming Valora's ok.- product line.",
- special : "The products are not just ok, they each deserve their own adjective.",
+ special : "Ok.- products are neither especially cheap nor expensive, and they lack distinctive features. To communicate that their products are more than just ok, they each got their own adjective.",
  images : 2,
  },
 
