@@ -22,20 +22,6 @@ iframe {
 
 
 
-/*img {
-  width: 50%;
-  transition: all 0.5s ease;
-}
-
-img:hover {
-  width:100%;
-  transition: all 0.5s ease;
-}*/
-
-
-
-
-
 
 .client_span {
   font-size: 0.9em;
@@ -50,7 +36,7 @@ img:hover {
 }
 
 .description_span {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .scroll {
