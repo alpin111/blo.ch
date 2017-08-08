@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
 
 <title>Portfolio</title>
 
@@ -17,8 +17,255 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="css/typewriter.css">
-<script src="js/store.js"></script>
+<style>
+
+
+
+  /*******************************************************************************************************/
+
+  body {
+    margin: 1.5em;
+  }
+
+
+
+.type-it, body  {
+  font-family: "Segoe UI","Helvetica Neue";
+  font-weight: 500;
+  font-size: 1.7em;
+  line-height: 1em;
+  }
+
+.about, .contact  {
+  font-size: 1.7em;
+  line-height: 1em;
+}
+
+
+
+
+  body a {
+  color:black;
+  text-decoration: underline;
+  border-right: .1em solid transparent;
+
+  }
+
+
+ a:hover {
+     border-right: .1em solid black;
+     color:blue;
+     text-decoration: none;
+     animation:
+       typing 0.5s steps(40, end),
+       blink-caret 1.0s step-end infinite;
+  }
+
+
+
+
+
+  /*******************************************************************************************************/
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+
+
+  /*responsive */
+  /*******************************************************************************************************//*******************************************************************************************************/
+  @media only screen and (max-width: 950px){
+    body  {
+      font-size: 0.8em;
+        }
+  }
+
+
+  @media (min-width: 1680px) {
+    body {font-size: 2.5em;}
+</style>
+<script type="text/javascript">
+ project_list = [
+
+
+
+
+ audi = {
+  string : "audi",
+ client : "Audi",
+ name : "Casemovie Explains Men",
+ project : "A casemovie about the Audi RS 4 mailing and deep zoom banner campaign.",
+ special : "It points out men's fascination for cars and goes on to explain how the campaign exploits the male brain.",
+ images : 0,
+ },
+
+
+
+ colgate = {
+string : "colgate",
+client : "Colgate-Palmolive",
+name : "Time-ticking Campaign",
+project : "A campaign with a contest to popularize Colgate's 12-hour protection toothpaste.",
+special : "To emphasize the 12-hour lasting protection of Colgate's toothpaste, the contest required participants to repost the contest every 12 hours. The longest reposting-chain won.",
+images : 8,
+},
+
+
+
+ palmolive = {
+  string : "palmolive",
+ client : "Colgate-Palmolive",
+ name : "Campaign for your Hands",
+ project : "A cross-media campaign to advertise Palmolive's soap by explaining the importance of washing your hands.",
+ special : "The campaign also uses QR codes and cameras on germ-rich spots to demonstrate how often we pick up bacteria.",
+ images : 7,
+ },
+
+
+
+
+
+ dksh = {
+   string : "dksh",
+  client : "DKSH",
+  name : "Asia Print Ads",
+  project : "A print ad campaign that demonstrates DKSH's footing in Asia.",
+  special : "",
+  images : 1,
+  },
+
+
+
+ marionnaud = {
+   string : "marionnaud",
+  client : "Marionnaud",
+  name : "Print Ads for your Mother",
+  project : "A mailing sent on Mother's Day.",
+  special : "Being provided with almost no information about the perfumes, I came up with my own psychedelic descriptions",
+  images : 4,
+  },
+
+
+
+ microsoft = {
+   string : "microsoft",
+  client : "Microsoft",
+  name : "Mailing for Working People",
+  project : "A Mailing adressed at small and medium businesses explaining the use of Microsoft's new software tools.",
+  special : "The mailing was personalized for various profession groups to demonstrate how Microsoft's new software adds to their existing tools.",
+  images : 4,
+  },
+
+
+ microsoft2 = {
+   string : "microsoft2",
+  client : "Microsoft",
+  name : "Mailing from the Future",
+  project : "A mailing that was seemlessly integrated in Bilanz, a financial magazine.",
+  special : "This issue of Bilanz contained a special article from the future for subscribers, telling the story of how this very article changed their life by convincing them to invest in cloud computing.",
+  images : 4,
+  },
+
+
+ migros = {
+  string : "migros",
+ client : "Migros",
+ name : "Interactive Hiking Trails",
+ project : "A campaign with a contest to advertise Migros' Heidi product line.",
+ special : "The contest includes an application that allows marking your favorite benches in the mountain areas. The campaign aims to ignite love for the Swiss mountain areas and connect them to the Heidi products, fostering identification.",
+ images : 13,
+ },
+
+
+ mobimo = {
+   string : "mobimo",
+  client : "Mobimo",
+  name : "Tower Website",
+  project : "A website advertising the new flats of the Mobimo Tower.",
+  special : "The new website was combined with an AdWords campaign. To this day, all flats are rented out except one or two on the top floors.",
+  images : 8,
+  },
+
+
+ neocitran = {
+  string : "neocitran",
+ client : "Novartis",
+ name : "Cuckatoo Campaign",
+ project : "A campaign aimed to give NeoCitran the edge over its competitors.",
+ special : "For some reason, the campaign was required to include a cuckatoo. The approach was a literary one, taking the cheeky cuckatoo as a metaphor for the cough that would never stop.",
+ images : 10,
+ },
+
+
+
+
+ novartis = {
+   string : "novartis",
+  client : "Novartis",
+  name : "Global Master Website",
+  project : "A new website that was to serve as a template for all subsidiaries.",
+  special : "The content was written in cooperation with doctors and trainers to ensure medical accuracy. Internal cross-linking was an important focus on the site, ensuring that consumers would understand the connection between certain symptoms and the products to relieve them.",
+  images : 15,
+  },
+
+
+
+ novartis2 = {
+   string : "novartis2",
+  client : "Novartis",
+  name : "Internal Communication",
+  project : "A video and internal newsletter informing Novartis employees worldwide of their new Voltaren website.",
+  special : "The tonality of the video aims for 'American enthusiasm', adressing the culture of the Voltaren management responsible for the project. The communication also emphasizes the website as a collective Novartis project, thereby aiming to persuade the various branches to adapt the new template for their local websites.",
+  images : 1,
+  },
+
+
+
+
+ rog = {
+   string : "rog",
+  client : "Reporters without borders",
+  name : "Putin Video Ad",
+  project : "A video raising awareness of the journalists' rights being threatened.",
+  special : "",
+  images : 0,
+  },
+
+
+
+
+ // schindler = {
+ //  string : "schindler",
+ // client : "Schindler",
+ // name : "Image Material",
+ // project : "Posters for an event hosted by Schindler.",
+ // special : "",
+ // images : 2,
+ // },
+
+
+
+
+ valora = {
+  string : "valora",
+ client : "Valora",
+ name : "Product Rebranding",
+ project : "Renaming Valora's ok.- product line.",
+ special : "Ok.- products are neither especially cheap nor expensive, and they lack distinctive features. To communicate that their products are more than just ok, they each got their own adjective.",
+ images : 2,
+ },
+
+] ;
+</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
 
@@ -31,12 +278,162 @@ var page = "portfolio";
 </script>
 
 
-<script src="js/nav.js"></script>
-<link rel="stylesheet" type="text/css" href="css/nav.css">
+<script type="text/javascript">
+document.write(
+'<header>'+
+'<nav><ul>'+
+'<li id="index"><a href="/">Home</a></li>'+
+'<li id="portfolio"><a href="portfolio">Portfolio</a></li>'+
+'<li id="about"><a href="about">About</a></li>'+
+'<li id="contact"><a href="contact">Contact</a></li>'+
+'</ul></nav></header>'
+);
+
+
+
+
+if (page=="portfolio") {
+    $('li').removeClass('active');
+    $('li#portfolio').addClass('active');
+};
+
+if (page=="about") {
+    $('li').removeClass('active');
+    $('li#about').addClass('active');
+};
+
+
+if (page=="index") {
+    $('li').removeClass('active');
+    $('li#index').addClass('active');
+};
+
+if (page=="contact") {
+    $('li').removeClass('active');
+    $('li#contact').addClass('active');
+};
+
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 20) {
+        $("header").addClass("scrolledHeader");
+        $("nav").addClass("scrollednav");
+        $(".scroll").addClass("scroll_element");
+
+    } else {
+        $("header").removeClass("scrolledHeader");
+        $("nav").removeClass("scrollednav");
+        $(".scroll").removeClass("scroll_element");
+    }
+});
+</script>
+<style>
+
+
+
+
+
+/* NAVIGATION ******************************************************************************************************/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { display: inline;
+  margin-right: 1em;}
+
+nav .active a{
+  text-decoration: None;
+  color: blue;
+  border-right: .1em solid black;
+  animation:
+    typing 0.5s steps(40, end),
+    blink-caret 1.0s step-end infinite;
+}
+
+
+header{line-height: 1em;}
+
+nav {
+  font-size: 0.8em;
+  margin-bottom: 1.5em;
+}
+</style>
 
 
 <body>
-<link rel="stylesheet" type="text/css" href="css/projects.css">
+<style>
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+.gallery {
+  text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    padding-bottom: 32px;
+}
+
+
+.info {height: 100vh}
+
+
+
+
+
+.client_span {
+  font-size: 0.9em;
+  line-height: 0em;
+
+}
+
+.info {padding-top: 0.2em}
+
+.name_span {
+  font-size: 1.5em;
+}
+
+.description_span {
+  font-size: 0.9em;
+}
+
+.scroll {
+  text-decoration: none !important;
+  font-size: 0.8em;
+  position:absolute;
+  bottom: 1em;
+  width: 20%;
+  margin: auto;
+  opacitiy: 1.0;
+
+}
+
+.scroll_element {
+  opacity: 0.0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+
+  transition: all 0.5s ease;
+}
+
+
+.backbutton_end{padding-top: 1em;}
+</style>
 
 
 
@@ -47,7 +444,39 @@ var page = "portfolio";
 
 
 <div class="info">
-<script src="js/info.js"></script>
+<script type="text/javascript">
+
+
+var projectname = location.search;
+// function you can use:
+function getSecondPart(str) {
+    return str.split('=')[1];
+}
+
+// use the function:
+var slice =getSecondPart(projectname);
+
+
+
+
+
+
+
+var client = slice + ".client"
+document.write('<span class="client_span">' + eval(client) + '</span><br>');
+
+
+var name = slice + ".name"
+document.write('<span class="name_span">' + eval(name) + '</span><br><br>');
+
+
+var project = slice + ".project"
+document.write('<span class="description_span">' +  eval(project) + '<br>—<br>');
+
+
+var special = slice + ".special"
+document.write(eval(special) + '<br>' + '</span>');
+</script>
 
 
 
@@ -71,14 +500,100 @@ var page = "portfolio";
 
 
 
- <div class="gallery" id = "gallery">
-              <script src="js/video.js"></script>
-              <script src="js/gallery.js"></script>
+ <div class="gallery" id="gallery">
+              <script type="text/javascript">
+
+
+if (slice == "novartis2") {
+
+  document.write(
+  '<div class="video">' +
+   '<iframe src="//player.vimeo.com/video/112937557?autoplay=0&title=0&amp;byline=0&amp;portrait=0"'+
+      'width="960"' +
+      'height="560"' +
+      'frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'
+);
+
+ }
+
+
+ if (slice == "rog") {
+
+   document.write(
+  '<div class="video">' +
+'<iframe src="//player.vimeo.com/video/112938271?autoplay=0&title=0&amp;byline=0&amp;portrait=0"'+
+'width="960"' +
+'height="560"' +
+'frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'
+  );
+   }
+
+
+
+   if (slice == "audi") {
+
+     document.write(
+    '<div class="video">' +
+'<iframe src="https://www.youtube.com/embed/nEK2TMtEPx0"'+
+'width="960"' +
+'height="560"' +
+'frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'
+  );
+   }
+</script>
+              <script type="text/javascript">
+
+
+
+
+
+
+
+var dir = "portfoliofolder/" + slice;
+var fileextension = ".jpg";
+
+var max_images = slice + ".images"
+
+   var count;
+
+   for(count = 1; count < eval(max_images)+1; count++){
+
+
+
+     document.write('<img ' +
+
+                     'srcset="portfoliofolder/'+slice + '/'+ count +'-small.jpg 340w,'+
+                              'portfoliofolder/'+slice + '/'+ count +'-medium.jpg 640w,'+
+                              'portfoliofolder/'+slice + '/'+ count +'-large.jpg 900w,"'+
+
+                          'sizes="(min-width: 900px) 900px, calc(100vw - 3em),'+
+                          '(min-width: 401px) 640px, calc(100vw - 3em),'+
+                          '(max-width: 400px) 340px, calc(100vw - 3em),'+
+                          '640px'+
+
+
+
+                       'src="portfoliofolder/'+
+                                       slice +
+                                       '/'+
+                                       count +
+
+                                       '.jpg"  type="image/jpg">'+
+                        '<br>');
+
+      // document.write('<img src="portfoliofolder/'+
+      //                 slice +
+      //                 '/'+
+      //                 count +
+      //                 '.jpg"  type="image/jpg"><br>');
+
+   }
+</script>
 </div>
 
 
 <div class="backbutton_end">
-  <a href='portfolio'>back</a>
+  <a href="portfolio">back</a>
 </div>
 
 
